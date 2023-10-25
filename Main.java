@@ -31,9 +31,9 @@ public class Main {
             myVeterinar.treetAnimal(animals[i]);
         }
         for (int i = 0; i < animals.length; i++) {
-            System.out.println(animals[i].name + "делает");
+            System.out.println(animals[i].name + " " + "делает:");
             animals[i].makeNoise();
-            System.out.println(animals[i].name + "кушает");
+            System.out.println(animals[i].name + " " + "кушает:");
             animals[i].eat();
         }
     }
